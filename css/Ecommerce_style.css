@@ -1,0 +1,392 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.clear {
+    clear: both;
+}
+
+@font-face {
+    font-family: bewitched;
+    src: url('../fonts/BEWITCHED-PERSONAL.otf')
+}
+
+@font-face {
+    font-family: Mummified;
+    src: url('../fonts/Mummified-Fill.otf')
+}
+
+
+/* First Type in Color : 
+ background-color: #4473c8;
+    color: #ffffff;
+
+    Second Type :
+        background-color: #395b9e;
+    border: #426ab9 2px solid;
+
+*/
+
+
+/* Home Page*/
+
+
+/*///////////////////////*/
+
+
+/*Start with Slider */
+
+.slider {}
+
+.slider .slide .carousel-inner .carousel-item img {}
+
+.carousel .carousel-control-prev:hover {
+    background-color: rgb(255, 255, 255, 0.5);
+    border-radius: 50px 90% 90% 50px;
+}
+
+.carousel .carousel-control-next:hover {
+    background-color: rgb(255, 255, 255, 0.5);
+    border-radius: 90% 50px 50px 90%;
+}
+
+
+/*///////////////////////////*/
+
+
+/* Arrivals*/
+
+
+/*Style For Text*/
+
+.ads_style #text_arrivals {
+    font-family: bewitched;
+    font-weight: 900;
+    text-transform: uppercase!important;
+    font-size: 35px;
+}
+
+.ads_style #text_arrivals span {
+    border-bottom: 7px solid rgb(63, 121, 189) !important;
+    display: inline;
+}
+
+
+/* ===========================
+   ===== Slideshow in Arrivals =====
+   =========================== */
+
+#slider {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.slide_arrivals {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.slide_arrivals img {
+    vertical-align: middle;
+    width: 101%;
+    margin: 0;
+    padding: 0;
+    opacity: 1;
+    transition: all .5s ease-in-out;
+}
+
+.caption {
+    position: absolute;
+    text-align: center;
+    font-size: 18px;
+    z-index: 2;
+    top: 21%;
+    opacity: 0;
+    transition: all .5s ease-in-out;
+    font-family: Mummified;
+    color: #000000;
+}
+
+.slide_arrivals:hover img {
+    opacity: .4;
+}
+
+.slide_arrivals:hover .caption {
+    opacity: 1;
+}
+
+.ads_style #slider .slide_arrivals .caption p {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800 !important;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.prev,
+.next {
+    position: absolute;
+    font-size: 40px;
+    cursor: pointer;
+    top: 50%;
+    margin-top: -20px;
+    z-index: 1000;
+    color: #fff;
+}
+
+.prev {
+    left: 30px;
+}
+
+.next {
+    right: 30px;
+}
+
+.dots {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    position: absolute;
+    z-index: 10000;
+    bottom: 30px;
+    left: 0;
+}
+
+.dot {
+    display: inline-block;
+    background: #b8b8b8;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.slide_arrivals:hover .dot {
+    opacity: 0 !important;
+}
+
+.dot:hover,
+.dot.active {
+    background: #FFF;
+}
+
+
+/*Style For Images with text in slider*/
+
+.ads_style img {
+    border-radius: 44px;
+}
+
+
+/* Evaluation in Caption in Images for Users  */
+
+.checked {
+    color: orange;
+    margin-top: 15px;
+}
+
+
+/*/////////////////////////////////////////////*/
+
+
+/* Style in Top Sales and top Categories */
+
+
+/* Modify in h1 Font */
+
+.top_sales_and_categories .card img {
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+}
+
+.top_sales_and_categories .card .card-title {
+    font-family: Mummified;
+    font-size: 27px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+
+/* Modify in button*/
+
+.top_sales_and_categories .add_product {
+    padding: 7px;
+    background-color: #395b9e;
+    font-size: 17px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    border: 2px solid #395b9e;
+    cursor: pointer;
+    transition: all .5 ease-in-out !important;
+}
+
+.top_sales_and_categories .add_product:hover {
+    background-color: transparent;
+    color: #395b9e;
+    transition: all .5 ease-in-out !important;
+}
+
+
+/*///////////////////////*/
+
+
+/*  Deal of the day*/
+
+
+/* Styles for note and button */
+
+.deal_the_day .note {
+    background-color: rgb(236, 236, 236);
+    color: #395b9e;
+    font-weight: 700;
+}
+
+.deal_the_day .note button {
+    background-color: transparent;
+    border: 3px solid #395b9e;
+    font-weight: 700;
+    color: #395b9e;
+    font-size: 15px;
+}
+
+.deal_the_day .note button:hover {
+    background-color: #395b9e;
+    color: #fff;
+}
+
+.deal_the_day .checked {
+    color: #395b9e;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+/* have changes in data_Deals text*/
+
+.deal_the_day .data_Deals h5 {
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-bottom: 5px;
+    font-weight: 800;
+}
+
+.deal_the_day .data_Deals .fa-location-arrow {
+    color: rgb(56, 134, 223);
+    transition: all .5s ease-in;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.deal_the_day .data_Deals .fa-location-arrow:hover {
+    color: rgb(55, 109, 170);
+}
+
+.deal_the_day .data_Deals .card-price {
+    color: rgb(54, 195, 54);
+    font-size: 20px;
+    font-weight: 800;
+}
+
+
+/*///////////////////////*/
+
+
+/* Best Offers */
+
+
+/*  Style for Note*/
+
+.best_offers .note {
+    background-color: rgb(236, 236, 236);
+    color: #395b9e;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.best_offers .note button {
+    background-color: transparent;
+    border: 4px solid #395b9e;
+    font-weight: 700;
+    color: #395b9e;
+    font-size: 15px;
+    transition: all .5s ease-in;
+}
+
+.best_offers .note button:hover {
+    background-color: #395b9e;
+    color: #fff;
+}
+
+
+/* Start Style for (card )in best_offers */
+
+.best_offers .owl-carousel .item .card .card-title {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.best_offers .owl-carousel .item .card .card-img-top {
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+}
+
+.best_offers .owl-carousel .item .card .card-text {
+    font-size: 33px;
+    color: #1ea75e;
+    text-transform: uppercase;
+}
+
+.best_offers .owl-carousel .item .card .btn-primary {
+    background-color: #395b9e;
+    border: 4px solid #395b9e;
+    transition: all .5s ease-in;
+}
+
+.best_offers .owl-carousel .item .card .btn-primary:hover {
+    background-color: #426ab9;
+    border: 4px solid #426ab9;
+}
+
+
+/*Category1_fashion */
+
+.Category1_fashion {
+    background-color: rgb(245, 245, 245);
+    padding: 10px;
+}
+
+.Category1_fashion .fashion_note img {
+    height: 600px;
+}
+
+.Category1_fashion .owl-fashion {}
+
+.Category1_fashion .owl-fashion img {
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    margin-top: 10px;
+    border-radius: 44px;
+}
+
+
+/*End home page*/
