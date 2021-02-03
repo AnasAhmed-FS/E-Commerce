@@ -1390,6 +1390,91 @@ new_arrivals Section
 }
 
 
+/*  bg category */
+
+.bg_category {
+    background-image: url("../images/bg.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    padding-top: 30px;
+}
+
+.bg_category .Gategory1 {
+    opacity: .5;
+}
+
+
+/* ads1*/
+
+.ads {
+    background-color: hsl(212, 33%, 16%);
+    transition: all ease.9s;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.ads:hover {
+    transition: all ease.9s;
+    transform: translateY(-9px);
+    box-shadow: 0px 5px 4px 4px #cecece;
+}
+
+.ads_contain .ads_border {
+    margin: 40px;
+    /* just for contrast */
+    position: relative;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 12px;
+    display: inline-block;
+    text-align: center;
+}
+
+.ads_border .componentTitle {
+    position: absolute;
+    top: -20px;
+    font-size: 15px;
+    background-color: #1b2735;
+}
+
+.ads_contain .ads_border p,
+h1 {
+    color: #fff;
+    font-weight: 900;
+}
+
+.ads_contain .under {
+    border-left: 5px solid #fff;
+    border-right: 5px solid #fff;
+    text-align: center;
+}
+
+.ads_contain .watch {
+    color: #fff;
+    font-weight: 500;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 10px;
+}
+
+.ads_btn {
+    margin-top: 30px;
+    background-color: transparent;
+    color: #fff;
+    font-weight: 900;
+    padding: 20px;
+    border-radius: 44px;
+    border: #fff solid 2px;
+    transition: all ease.9s;
+}
+
+.ads_btn:hover {
+    background-color: #fff;
+    color: #1b2735;
+    transition: all ease.9s;
+}
+
+
 /*---------------------
   Deal Of The Week
 -----------------------*/
