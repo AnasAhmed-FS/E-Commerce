@@ -238,37 +238,19 @@ ol {
     0% {
         -webkit-transform: rotate(0deg);
         transform: rotate(0deg);
-        border: 4px solid #f44336;
+        border: 4px solid #2c84dd;
         border-left-color: transparent;
     }
     50% {
         -webkit-transform: rotate(180deg);
         transform: rotate(180deg);
-        border: 4px solid #673ab7;
+        border: 4px solid #1b4875;
         border-left-color: transparent;
     }
     100% {
         -webkit-transform: rotate(360deg);
         transform: rotate(360deg);
-        border: 4px solid #f44336;
-        border-left-color: transparent;
-    }
-}
-
-@-webkit-keyframes loader {
-    0% {
-        -webkit-transform: rotate(0deg);
-        border: 4px solid #f44336;
-        border-left-color: transparent;
-    }
-    50% {
-        -webkit-transform: rotate(180deg);
-        border: 4px solid #673ab7;
-        border-left-color: transparent;
-    }
-    100% {
-        -webkit-transform: rotate(360deg);
-        border: 4px solid #f44336;
+        border: 4px solid #133557;
         border-left-color: transparent;
     }
 }
@@ -1496,8 +1478,8 @@ padding: 39px 0;
 
 .deal-of-week .modify_deal_btn:hover {
     background-color: transparent;
-    color: #4473c8;
-    border: 3px solid #4473c8;
+    color: #4c6681;
+    border: 3px solid #4c6681;
     font-size: 14px;
     font-weight: 700;
     transition: all ease-in-out .5s;
@@ -4160,6 +4142,8 @@ padding: 39px 0;
     margin-top: 5px;
 }
 
+.register-form form .register-btn {}
+
 .register-form .switch-login,
 .login-form .switch-login {
     text-align: center;
@@ -5758,4 +5742,22 @@ h1 {
 	li .icon-seach{
 		display: block;
 	} */
+}
+
+
+/* my Modifications */
+
+#login_mid p a {
+    color: #1d3550;
+}
+
+
+/* 
+Modify in Login */
+
+.container .bord {
+    /* background-image: url('../img/login.jpg');
+    background-attachment: fixed;
+    background-size: cover; */
+    border: solid 2px #1d3550 !important;
 }
