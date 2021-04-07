@@ -4103,6 +4103,13 @@ padding: 39px 0;
     padding-bottom: 80px;
 }
 
+.register-login-section .login-form,
+.register-form {
+    border-radius: 44px;
+    background-color: #f3f0f0;
+    padding: 20px;
+}
+
 .register-form h2,
 .login-form h2 {
     color: #252525;
@@ -5760,4 +5767,172 @@ Modify in Login */
     background-attachment: fixed;
     background-size: cover; */
     border: solid 2px #1d3550 !important;
+}
+
+
+/* UserProfile */
+
+.bg_profile {
+    background-color: #ecedf0;
+}
+
+
+/* .Group_organization {
+    padding: 8px;
+} */
+
+#btn_sort .btn-group .bg_sort,
+.bg_sort {
+    background-color: #3c71a8 !important;
+}
+
+#btn_sort .btn-group .bg_sort {
+    background-color: #4988cc !important;
+}
+
+
+/* Start with Modify in images for Categories */
+
+.options {
+    margin-top: 40px;
+}
+
+.modyfy_img_category {
+    width: 100%;
+}
+
+.modyfy_img_category .img_category {
+    padding: 20px;
+    border: 2px solid rgb(179, 177, 177, .3);
+    position: relative;
+    transition: all ease-out .5s;
+}
+
+.modyfy_img_category .img_category .modify_img {
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    opacity: 1;
+    transition: all ease-out .5s;
+}
+
+
+/*Start with Modal and More details  in Button*/
+
+.modyfy_img_category .img_category .button_modal {
+    padding: 10px;
+    cursor: pointer;
+    position: absolute;
+    left: 87px;
+    top: 70px;
+    opacity: 0;
+    background-color: #395b9e;
+    color: #ffffff;
+    border-radius: 44px;
+    border: #395b9e 2px solid;
+    ;
+    transition: all ease-out .5s;
+    font-weight: 600;
+}
+
+
+/* hover for only button*/
+
+.modyfy_img_category .img_category .button_modal:hover {
+    background-color: #4473c8;
+    color: #ffffff;
+}
+
+
+/* Effect on img and button in one seconde  */
+
+.modyfy_img_category .img_category:hover .modify_img {
+    opacity: 0.3;
+}
+
+.modyfy_img_category .img_category:hover .button_modal {
+    opacity: 1;
+}
+
+
+/* btn_inside_modal*/
+
+.img_category .modal .modal-dialog .modal-content .modal-body .btn_nside_modal {
+    width: 70%;
+    height: 20%;
+    margin-top: 150px;
+    padding: 10px;
+    background-color: #395b9e;
+    color: #ffffff;
+    border: 2px solid #395b9e;
+    cursor: pointer;
+    font-weight: 900;
+    transition: all ease-out .5s;
+}
+
+.img_category .modal .modal-dialog .modal-content .modal-body .btn_nside_modal:hover {
+    background-color: transparent;
+    color: #426ab9;
+    border: 2px solid #395b9e;
+    font-weight: 900;
+}
+
+
+/* Start Style for (card )in best_offers */
+
+.fav .card {
+    border-radius: 44px;
+    padding: 6px;
+}
+
+.fav .card .card-title {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.fav .card-body .btn {
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+.fav .card .card-img-top {
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 270px;
+    height: 200px;
+}
+
+.fav .card .card-text {
+    font-size: 33px;
+    color: #1ea75e;
+    text-transform: uppercase;
+}
+
+.fav .card .btn-primary {
+    background-color: #395b9e;
+    border: 4px solid #395b9e;
+    transition: all .5s ease-in;
+}
+
+.fav .card .btn-primary:hover {
+    background-color: #426ab9;
+    border: 4px solid #426ab9;
+}
+
+#list-favorites span {
+    border-bottom: #224fa5 4px solid;
+}
+
+#list-saved {
+    margin-top: 15%;
+}
+
+#list-saved .save_mfy {
+    padding-top: 20px;
+}
+
+.text-primary {
+    color: #1a3f62 !important;
 }

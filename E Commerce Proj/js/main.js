@@ -344,3 +344,33 @@
     }); // jquery end
 
 })(jQuery);
+
+
+
+// User Profiel
+/* have change and Modal in Categories with button */
+$(document).ready(function() {
+
+        $('#list-tab a').on('click', function(event) {
+            event.preventDefault()
+            $(this).tab('show')
+        })
+
+
+    })
+    /*clothes  */
+$('#New').modal(options);
+$('#exampleModal').modal(options);
+
+/* LapTops */
+$('#example_laptop ').modal(options);
+
+/* Electonics */
+$('#example_electro ').modal(options);
+
+/*  product */
+$('#example_product ').modal(options);
+
+// $(document).ready(function() {
+//     $('.dropDown_profile').dropdown()
+// })
