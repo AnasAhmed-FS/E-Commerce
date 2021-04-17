@@ -4439,6 +4439,12 @@ padding: 39px 0;
     overflow: hidden;
 }
 
+.team .member .member-img img {
+    height: 330px;
+    width: 330px;
+    background-size: cover;
+}
+
 .team .member .social {
     position: absolute;
     left: 0;
