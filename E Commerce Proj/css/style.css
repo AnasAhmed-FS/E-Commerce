@@ -914,7 +914,7 @@ padding: 39px 0;
 }
 
 .mobile-nav-toggle i {
-    color: #ff5821;
+    color: #ffffff;
 }
 
 .mobile-nav {
@@ -942,7 +942,7 @@ padding: 39px 0;
 .mobile-nav a {
     display: block;
     position: relative;
-    color: #473d3a;
+    color: #4b79a8;
     padding: 10px 20px;
     font-weight: 500;
     outline: none;
@@ -951,7 +951,7 @@ padding: 39px 0;
 .mobile-nav a:hover,
 .mobile-nav .active>a,
 .mobile-nav li:hover>a {
-    color: #ff5821;
+    color: #558bc2;
     text-decoration: none;
 }
 
@@ -978,6 +978,10 @@ padding: 39px 0;
 
 .mobile-nav .drop-down li {
     padding-left: 20px;
+}
+
+.nav-item {
+    margin-left: 20px;
 }
 
 .mobile-nav-overly {
