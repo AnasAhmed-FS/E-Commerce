@@ -1,0 +1,12 @@
+.virfy_account {
+    background-color: #ffffff !important;
+}
+
+.content-wrapper .carousel-inner .carousel-item .card img {
+    min-width: 100%;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+}
